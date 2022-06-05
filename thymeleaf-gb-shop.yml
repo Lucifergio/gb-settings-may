@@ -2,9 +2,9 @@ app.setting: 'thymeleaf'
 
 gb.api:
   endpoint:
-    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/external/api/v1/manufacturer'
-    category-url: 'http://${gb.api.endpoint.base-uri}/external/api/v1/category'
-    product-url: 'http://${gb.api.endpoint.base-uri}/external/api/v1/product'
+    manufacturer-url: 'http://${gb.api.endpoint.external-uri}/external/api/v1/manufacturer'
+    category-url: 'http://${gb.api.endpoint.external-uri}/external/api/v1/category'
+    product-url: 'http://${gb.api.endpoint.external-uri}/external/api/v1/product'
   connection:
     period: 100
     max-period: 10000 #Millis
